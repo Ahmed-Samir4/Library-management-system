@@ -159,5 +159,5 @@ TOKEN_PREFIX=Bearer_
 ## Validation
 All inputs are validated using Joi. See the `user.validation.js` and `book.validation.js` files for details.
 
-## License
-MIT
+## Thnak you for your time
+
