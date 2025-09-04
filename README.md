@@ -11,6 +11,12 @@ A Node.js/Express/Sequelize-based library management system with user authentica
 - Export borrowing data as CSV or XLSX
 - Input validation with Joi
 
+## Database Schema
+
+![Database Schema](Schema.png)
+
+See the `book.model.js`, `borrow.model.js`, and `user.model.js` files for Sequelize model definitions.
+
 ## Setup
 1. Clone the repository
 2. Install dependencies:
@@ -32,7 +38,6 @@ JWT_SECRET=your-value
 SALT=your-value
 
 # Email (for nodemailer)
-
 EMAIL=your-value
 EMAIL_PASSWORD=your-value
 
@@ -153,9 +158,6 @@ TOKEN_PREFIX=Bearer_
 
 ## Validation
 All inputs are validated using Joi. See the `user.validation.js` and `book.validation.js` files for details.
-
-## Database Schema
-See the `book.model.js`, `borrow.model.js`, and `user.model.js` files for Sequelize model definitions.
 
 ## License
 MIT
